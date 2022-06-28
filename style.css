@@ -1,0 +1,89 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #C6C7C4;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+#display {
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #EEF0F2;
+  margin-bottom: 5px;
+}
+
+#first-line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 20px;  
+}
+
+#above-display {
+  height: 15px;
+  font-size: 15px;
+  text-align: right;
+  margin-right: 3px;
+  margin-bottom: 2%;
+}
+
+#inner-display {
+  height: 21px;
+  font-size: 18px;
+  margin-right: 3px;
+  text-align: right;
+  background-color: #EEF0F2;
+  border: none
+}
+
+#lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+#numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.rows {
+  display: flex;
+
+}
+
+#operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  padding: 6px 12px;
+  margin: 5px 1px;
+}
+
+.clear {
+  background-color: #846A6A
+}
+
+.numbers {
+  background-color: #A2999E;
+}
+
+.operators {
+  background-color: #DADCDB;
+  border: white;
+}

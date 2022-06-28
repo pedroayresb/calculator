@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id='container'>
+    <div id="display">
+      <p id="above-display"></p>
+      <p id="inner-display"></p>
+    </div>
+    <div id="buttons">
+      <div id="first-line">
+        <button id='clear-all' class="btn clear">C</button>
+        <button id='clear-last-operator' class="btn clear">Cc</button>
+        <button class="material-icons btn clear" id="clear-last">&#xe14a;</button>
+        <button class="operators btn btn-warning" id='division'>/</button>
+      </div>
+      <div id="lines">
+        <div id="numbers">
+          <div class ='rows' id="first-numbers-line">
+            <button class='numbers btn' id="seven">7</button>
+            <button class='numbers btn' id="eigth">8</button>
+            <button class='numbers btn' id="nine">9</button>
+          </div>
+          <div class ='rows' id="second-numbers-line">
+            <button class='numbers btn' id="four">4</button>
+            <button class='numbers btn' id="five">5</button>
+            <button class='numbers btn' id="six">6</button>
+          </div>
+          <div class ='rows' id="third-numbers-line">
+            <button class='numbers btn' id="one">1</button>
+            <button class='numbers btn' id="two">2</button>
+            <button class='numbers btn' id="three">3</button>
+          </div>
+          <div class ='rows' id="fourth-numbers-line">
+            <button class='numbers btn' id="double-zero">00</button>
+            <button class='numbers btn' id="zero">0</button>
+            <button class='numbers btn' id="dot">,</button>
+          </div>
+        </div>
+        <div id="operations">
+          <button class="operators btn" id="times">*</button>
+          <button class="operators btn" id="sub">-</button>
+          <button class="operators btn" id="sum">+</button>
+          <button class="equals btn btn-success" id="equals">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
